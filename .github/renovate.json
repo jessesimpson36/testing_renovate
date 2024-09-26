@@ -9,6 +9,11 @@
     "main"
   ],
   "dependencyDashboard": true,
+  "datasources": {
+    "github-release-attachments": {
+      "enabled": true
+    }
+  },
   "prConcurrentLimit": 30,
   "prHourlyLimit": 2,
   "updateNotScheduled": false,

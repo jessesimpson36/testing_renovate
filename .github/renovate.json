@@ -214,7 +214,7 @@
       "datasourceTemplate": "github-release-attachments",
       "depNameTemplate": "camunda-zeebe",
       "versioningTemplate": "semver",
-      "extractVersionTemplate": "^camunda-zeebe-(?<version>\\d+\\.\\d+\\.\\d+)(-[a-zA-Z]+\\d*)?\\.tgz$",
+      "extractVersionTemplate": "^camunda-zeebe-(?<version>\\d+\\.\\d+\\.\\d+)(-[a-zA-Z]+\\d*)?\\.tar.gz$",
       "registryUrlTemplate": "https://api.github.com/repos/camunda/camunda/releases"
     }
   ]

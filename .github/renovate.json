@@ -212,7 +212,7 @@
       "fileMatch": ["^c8run/package.sh$", "^c8run/package.bat$", "^c8run/internal/run.sh", "^c8run/windows/c8run_windows.go$"],
       "matchStrings": ["^\\s*CAMUNDA_VERSION=(\"|')?(?<currentValue>\\d+\\.\\d+\\.\\d+(-[a-zA-Z]+\\d*)?)(\"|')?$", "^\\s*camundaVersion +:= +(\"|')?(?<currentValue>\\d+\\.\\d+\\.\\d+(-[a-zA-Z]+\\d*)?)(\"|')?$"],
       "datasourceTemplate": "github-release-attachments",
-      "depNameTemplate": "camunda/camunda",
+      "depNameTemplate": "camunda-zeebe",
       "versioningTemplate": "semver",
       "extractVersionTemplate": "^camunda-zeebe-(?<version>\\d+\\.\\d+\\.\\d+)(-[a-zA-Z]+\\d*)?\\.tgz$",
       "registryUrlTemplate": "https://api.github.com/repos/camunda/camunda/releases"

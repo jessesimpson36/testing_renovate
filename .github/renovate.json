@@ -179,16 +179,6 @@
       "groupName": "playwright"
     },
     {
-      "custom_type": "regex",
-      "matchDatasources": ["github-release-attachments"],
-      "matchPackageNames": ["camunda/camunda"],
-      "matchFileNames": ["c8run/**"],
-      "packagePattern": "^camunda-zeebe-.*\\.tgz$",
-      "versioning": "semver",
-      "registryUrls": ["https://api.github.com/repos/camunda/camunda/releases"],
-      "groupName": "C8 Run Dependencies"
-    },
-    {
       "description": "Automerge all updates with green CI.",
       "matchPackagePatterns": ["*"],
       "automerge": true,
@@ -221,7 +211,7 @@
       "datasourceTemplate": "docker"
     },
     {
-      "fileMatch": ["^c8run\\package.sh$", "^c8run\\package.bat$", "^c8run\\internal\\run.sh", "^c8run\\windows\\c8run_windows.go$"],
+      "fileMatch": ["^c8run/package.sh$", "^c8run/package.bat$", "^c8run/internal/run.sh", "^c8run/windows/c8run_windows.go$"],
       "matchStrings": ["^CAMUNDA_VERSION=(\"|')?(?<currentValue>\\d+\\.\\d+\\.\\d+(-[a-zA-Z]+\\d*)?))(\"|')?$", "^camundaVersion +:= +(\"|')?(?<currentValue>\\d+\\.\\d+\\.\\d+(-[a-zA-Z]+\\d*)?))(\"|')?$"],
       "datasourceTemplate": "github-release-attachments",
       "depNameTemplate": "camunda",
